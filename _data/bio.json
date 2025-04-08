@@ -11,7 +11,7 @@
     "profiles": [
       { "network": "github", "username": "mroswell", "url": "http://github.com/mroswell" },
       { "network": "linkedin", "username": "marjorie-roswell", "url": "http://linkedin.com/in/marjorie-roswell" },
-      { "network": "twitter", "username": "mroswell", "url": "http://twitter.com/mroswell" },
+      { "network": "twitter", "username": "mroswell", "url": "http://twitter.com/mroswell" }
     ]
   },
   "interests": [
