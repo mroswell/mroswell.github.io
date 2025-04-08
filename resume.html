@@ -42,23 +42,6 @@ layout: home
       </div>
       <div class="col-lg-9">
         <p class="m-0">
-          {% for entry in site.data.bio.interests -%}
-            {{ entry.name }}
-            {%- if entry.keywords and entry.keywords.size > 0 -%}({%- for keyword in entry.keywords -%}{{ keyword }}{%- if forloop.last != true -%}, {%- endif -%}{%- endfor -%}){%- endif -%}{%- if forloop.last != true -%}, {%- endif -%}
-          {%- endfor %}
-
-     {% capture interests_list %}
-      {% for entry in site.data.bio.interests %}
-        {{ entry.name }}
-        {% if entry.keywords and entry.keywords.size > 0 %}(
-          {% for keyword in entry.keywords %}
-            {{ keyword }}{% if forloop.last != true %},{% endif %}
-          {% endfor %}
-        ){% endif %}{% if forloop.last != true %},{% endif %}
-      {% endfor %}
-    {% endcapture %}
-    {{ interests_list | strip_newlines | replace: ",", ", " }}
-
               {% assign output = "" %}
     {% for entry in site.data.bio.interests %}
       {% assign output = output | append: entry.name %}
