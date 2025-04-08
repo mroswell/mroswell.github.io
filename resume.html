@@ -58,6 +58,28 @@ layout: home
       {% endfor %}
     {% endcapture %}
     {{ interests_list | strip_newlines | replace: ",", ", " }}
+
+              {% assign output = "" %}
+    {% for entry in site.data.bio.interests %}
+      {% assign output = output | append: entry.name %}
+      
+      {% if entry.keywords and entry.keywords.size > 0 %}
+        {% assign output = output | append: "(" %}
+        {% assign keyword_count = entry.keywords.size %}
+        {% for keyword in entry.keywords %}
+          {% assign output = output | append: keyword %}
+          {% if forloop.last != true %}
+            {% assign output = output | append: "," %}
+          {% endif %}
+        {% endfor %}
+        {% assign output = output | append: ")" %}
+      {% endif %}
+      
+      {% if forloop.last != true %}
+        {% assign output = output | append: ", " %}
+      {% endif %}
+    {% endfor %}
+    {{ output }}
         </p>
       </div>
     </div>
