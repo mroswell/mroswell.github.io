@@ -7,38 +7,34 @@
     "phone": "808-333-4444",
     "website": "https://marjorieroswell.com",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "21218", "city": "Baltimore", "countryCode": "USA", "region": "Maryland" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mroswell", "url": "http://github.com/mroswell" },
+      { "network": "linkedin", "username": "marjorie-roswell", "url": "http://linkedin.com/in/marjorie-roswell" },
+      { "network": "twitter", "username": "mroswell", "url": "http://twitter.com/mroswell" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
+    { "name": "Data Visualization" },
+    { "name": "Acoustic Music" },
+    { "name": "Vaccine Injury" },
+    { "name": "Tech for Good Academy" },
     { "name": "3D Graphics" }
   ],
   "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
-    },
+
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "QGIS", "Chatbots" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "Connecticut College, New London, CA",
+      "area": "Botany ( 1984)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "startDate": "1980-09-01",
+      "endDate": "1984-05-01,
       "courses": [
       ]
     }
